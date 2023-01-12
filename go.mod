@@ -1,4 +1,4 @@
-module image
+module github.com/KMRLAppPro/backend
 
 go 1.19
 
