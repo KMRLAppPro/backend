@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+    imageget:
+      build: .
+      ports:
+        - "3000:3000"
+      environment:
+        - MONGODB_URL=mongodb+srv://samanuai:backendkmrl@kmrl.phjuman.mongodb.net/?retryWrites=true&w=majority
+        - COMPOSE_PROJECT_NAME=kmrlImageLoad
+        - PORT=3000
